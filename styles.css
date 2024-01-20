@@ -1,0 +1,47 @@
+h1 {
+    background-color:royalblue;
+    color:rgb(242,109,102)
+}
+
+h6{
+    background-color:rgb(70,1,138);
+    color:rgb(177,255,168)
+}
+
+p{
+    background-color:rgb(255,168,222);
+    color:rgb(73,7,186)
+}
+
+#myWork{
+    background-color:rgb(228,125,232);
+    color:rgb(0,0,0)
+}
+
+ul{
+    background-color:rgb(114,171,94);
+    color:rgb(148,11,6)
+}
+
+ol{
+    background-color:rgb(233,240,146);
+    color:rgb(222,82,82)
+}
+
+table{
+    background-color:rgb(199,164,252);
+    color:rgb(50,88,166)
+}
+
+td{
+    background-color:rgb(181,56,56);
+    color:rgb(247,246,129)
+}
+
+.greenBackgroundColor{
+    background-color:rgb(116,199,101)
+}
+
+#_AnimeTableDiv{
+   font-family:Arial, Helvetica, sans-serif
+}
