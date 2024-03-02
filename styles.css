@@ -42,6 +42,46 @@ td{
     background-color:rgb(116,199,101)
 }
 
+.yellowBackgroundColor{
+    background-color:rgb(230,232,128)
+}
+
+.blueBackgroundColor{
+    background-color:rgb(128,175,232)
+}
+
+.redBackgroundColor{
+    background-color: rgb(214,39,39)
+}
+
+.purpleBackgroundColor{
+    background-color: rgb(128,0,128);
+}
+
+.orangeBackgroundColor{
+    background-color: rgb(255,165,0);
+}
+
+.greyBackgroundColor{
+    background-color: rgb(105,105,105);
+}
+
+.pinkBackgroundColor{
+    background-color: rgb(255,192,203);
+}
+
+.cyanBackgroundColor{
+    background-color: rgb(66, 242, 245);
+}
+
+.yellow-greenBackgroundColor{
+    background-color: rgb(182,245,66);
+}
+
+.light-blueBackgroundColor{
+    background-color: rgb(66,179,245);
+}
+
 #_AnimeTableDiv{
    font-family:Arial, Helvetica, sans-serif;
    border: dashed rgb(51,124,255) 0.3rem;
@@ -60,47 +100,101 @@ td{
 }
 
 .yellowBorderClass{
-    border: dotted rgb(247,246,129) 1rem;
+    border: solid rgb(247,246,129) 1rem;
     padding: 0.5rem;
     margin: 1rem;
 }
 
 .purpleBorderClass{
-    border: dashed rgb(193, 62, 193);
+    border: solid rgb(193, 62, 193) 1rem;
     padding: 0.5rem;
     margin: 1rem;
 }
 
 .orangeBorderClass{
-    border: groove rgb(255,165,0);
+    border: solid rgb(255,165,0) 1rem;
     padding: 0.5rem;
     margin: 1rem;
 }
 
 .blueBorderClass{
-    border: double rgb(64, 64, 144);
+    border: solid rgb(64, 64, 144) 1rem;
     padding: 0.5rem;
     margin: 1rem;
 }
 
 .pinkBorderClass{
-    border:ridge rgb(255, 181, 193);
+    border: solid rgb(255, 181, 193) 1rem;
     padding: 0.5rem;
     margin: 1rem;
 }
 
 .cyanBorderClass{
-    border:inset rgb(66, 242, 245);
+    border: solid rgb(66, 242, 245) 1rem;
     padding: 0.5rem;
     margin: 1rem;
 }
 
 .blackBorderClass{
-    border:outset rgb(0,0,0);
+    border: solid rgb(0,0,0) 1rem;
     padding: 0.5rem;
     margin: 1rem;
 }
 
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
 
 
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:flex-end;
+    height: 10rem;
+}
 
+.flexItem{
+    align-self:center;
+    flex-basis: 3rem;
+}
+
+.flexContainer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 10rem;
+}
+
+.flexItem1{
+    align-self: center;
+    flex-grow: 2;
+}
+
+.flexContainer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+
+.flexItem2{
+    align-self: center;
+    flex-shrink: initial;
+}
+
+.flexContainer3{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: baseline;
+    height: 10rem;
+}
+
+.flexItem3{
+    align-self: center;
+    flex-shrink: 0;
+}
