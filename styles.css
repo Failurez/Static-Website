@@ -152,7 +152,7 @@ img{
     flex-direction: row;
     justify-content: flex-end;
     align-items:flex-end;
-    height: 10rem;
+    height: 2rem;
 }
 
 .flexItem{
@@ -165,7 +165,7 @@ img{
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 10rem;
+    height: 1rem;
 }
 
 .flexItem1{
@@ -173,12 +173,22 @@ img{
     flex-grow: 2;
 }
 
+.flexItem4{
+    flex-grow: 4;
+    align-self: center;
+}
+
+.flexItem5{
+    flex-grow: 1;
+    align-self: center;
+}
+
 .flexContainer2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 10rem;
+    height: 5rem;
 }
 
 .flexItem2{
@@ -191,10 +201,45 @@ img{
     flex-direction: row;
     justify-content: baseline;
     align-items: baseline;
-    height: 10rem;
+    height: 8rem;
+    width: 5rem;
+    flex-wrap: wrap;
 }
 
 .flexItem3{
     align-self: center;
     flex-shrink: 0;
+    flex-basis: 5rem;
+}
+
+.flexContainer4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+    height: 10rem;
+    width: 10rem;
+    flex-wrap: wrap;
+    margin: 3rem;
+}
+
+.flexItem6{
+    align-self: center;
+    flex-basis: 5rem;
+}
+
+.flexContainer5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 20rem;
+    flex-wrap: wrap;
+    margin: 5rem
+}
+
+.flexItem7{
+    align-self: center;
+    flex-basis: 5rem;
 }
